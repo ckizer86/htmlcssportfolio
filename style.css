@@ -1,0 +1,43 @@
+.container {
+    background-color: burlywood;
+}
+
+.header {
+    border-bottom: solid 2px black;
+}
+
+img {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 1%;
+    margin-bottom: 0;
+    background-color: burlywood;
+    border-radius: 0;
+}
+
+.hpcard {
+    margin: 1%;
+    border: solid 2px black;
+}
+
+h2.card-text {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+    color: #000;
+}
+
+a.maincards {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: burlywood;
+}
+
+.footer-b {
+    text-align: center;
+    margin: 1%;
+}
