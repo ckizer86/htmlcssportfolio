@@ -17,6 +17,10 @@ img {
     border-radius: 0;
 }
 
+h1.section-header {
+    text-align: center;
+}
+
 .hpcard {
     margin: 1%;
     border: solid 2px black;
@@ -27,6 +31,11 @@ h2.card-text {
     font-size: 1rem;
     line-height: 1;
     color: #000;
+}
+
+.directionspic {
+    width: 23%;
+    padding: 1%;
 }
 
 a.maincards {
