@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="description" content="Add your recipe to the site">
+        <title>Recipe Box | Submit Your Recipe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- load Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col navbar-header">
+                    <nav class="navbar navcontainer navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">Recipe Box</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="maindishes.html">Main Dishes</a>
+                                    <a class="dropdown-item" href="sidesmain.html">Side Dishes</a>
+                                    <a class="dropdown-item" href="dessertsmain.html">Desserts</a>
+                                    <a class="dropdown-item" href="appetizersmain.html">Appetizers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="submitrecipe.html">Submit Recipe<span class="sr-only">(current)</span></a>
+                            </li>
+                            </ul>
+                        </div>
+                        </nav>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+            <div class="row jumbotron">
+            <img src="images/food-banner.jpg">
+            </div>
+            <div class="row maincontent">
+                <div class="col">
+                    <h1>Submit Your Recipe</h1>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Recipe Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="recipepic">Upload Your Recipe Pic</label>
+                                    <input type="file" class="form-control-file" id="recipepic">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="ingredients">Ingredients</label>
+                                    <textarea class="form-control" id="ingredients" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="categorygroup">Select a Category</label>
+                                    <select class="form-control" id="categorygroup">
+                                        <option>Main Dishes</option>
+                                        <option>Side Dishes</option>
+                                        <option>Desserts</option>
+                                        <option>Appetizers</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="instructions">Instructions</label>
+                                    <textarea class="form-control" id="instructions" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col">
+                    <p class="footer-b">&copy; Recipe Box 2021</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
