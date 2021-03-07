@@ -54,3 +54,7 @@ a.maincards {
 .recipeform {
     padding: 0 10%;
 }
+
+video.pvideo {
+    width: 100%;
+}
